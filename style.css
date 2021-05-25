@@ -130,6 +130,9 @@ form {
     padding-left: 13px;
     margin-bottom: 13px;
 }
+.form-phone-date {
+    display: flex;
+}
 .form-date
 .form-phone {
     width: 345px;
