@@ -1,0 +1,261 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 82px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+nav ul, 
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    display: flex;
+}
+nav a:hover {
+    color: #ef7a2e;
+}
+nav .active a {
+    color: #ae70d5;
+}
+nav a {
+    display: block;
+    padding: 20px;
+}
+section {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-image: url('assets/images/background2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 752px;
+}
+.middle {
+    display: table;
+    clear: both;
+    content: '';
+    width: 1140px;
+    height: 752px;
+    margin-left: 91px;
+    margin-right: 91px;
+}
+.palette {
+    width: 948px;
+    height: 228px;
+    margin-top: 230px;
+    margin-left: 96px;
+    margin-right: 96px;
+    background-color: #ef7a2e;
+    color: #FFF;
+}
+.container-form {
+    text-align: left;
+    color: #111;
+    background-color: #FFF;
+    width: 827px;
+    height: 626px;
+}
+.u-group-1 {
+    width: 827px;
+    min-height: 584px;
+    background-image: none;
+    margin: -418px auto 0;
+}
+.container-layout {
+    padding: 30px;
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    width: 767px;
+    height: 566px;
+    padding: 30px;
+}
+h2 {
+    text-align: center;
+    width: 767px;
+    height: 39px;
+    display: block;
+    font-size: 36px;
+    margin: 0px;
+}
+.u-form1 {
+    width: 703px;
+    height: 512px;
+    margin-top: 15px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+form {
+    margin-left: -13px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    width: 716px;
+    height: 495px;
+    display: table;
+    clear: both;
+    display: flex;
+    position: relative;
+}
+.u-form-group {
+    margin-bottom: 13px;
+    padding-left: 13px;
+    text-align: start;
+    width: 100%;
+}
+.form-email, 
+.form-name {
+    width: 345px;
+    height: 77px;
+    padding-left: 13px;
+    margin-bottom: 13px;
+}
+.form-date
+.form-phone {
+    width: 345px;
+    padding-left: 13px;
+    margin-bottom: 13px;
+}
+.form-date {
+    height: 79px;
+}
+.form-phone {
+    height: 52px;
+    margin-left: 0px;
+}
+.phone {
+    color: #FFF;
+}
+#date {
+    height: 34px;
+    width: 321px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 12px;
+    padding-left: 12px;
+    align-items: center;
+    padding-inline-start: 1px;
+    cursor: default;
+    background-color: #f2f2f2;
+    border: 0px;
+    font-size: 16px;
+}
+.form-textarea {
+    width: 716px;
+    height: 173px;
+    padding-left: 13px;
+    margin-bottom: 13px;
+}
+textarea {
+    resize: none;
+    width: 680px;
+    height: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 12px;
+    padding-left: 12px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    border: none;
+    outline: 0;
+    float: left;
+}
+.form-button {
+    width: 703px;
+    height: 50px;
+    padding-left: 13px;
+}
+label {
+    display: flex;
+    margin-bottom: 5px;
+    font-size: 16px;
+    text-align: start;
+    width: 68px;
+    height: 22px;
+}
+input[type=text] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 12px;
+    padding-left: 12px;
+    width: 321px;
+    height: 32px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    border: none;
+    outline: 0;
+    float: left;
+}
+button {
+    width: 122px;
+    height: 48px;
+    background-color: #000;
+    color: #FFF;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    color: #ef7a2e;
+}
+.freepik {
+    color: #FFF;
+}
+footer {
+    height: 30px;
+    background-color: #333333;
+    padding: 50px;
+    text-align: center;
+    color: #FFF;
+}
+#linkedin, 
+#reference {
+    color: #FFF;
+}
+#linkedin:hover, 
+#reference:hover {
+    color: #ef7a2e;
+}
+address {
+    font-style: normal;
+}
+p {
+    font-style: normal;
+    margin-left: 345px;
+    color: #FFF;
+    width: 161px;
+    height: 29px;
+    margin: 19px auto -130px;
+    word-wrap: break-word;
+    position: relative;
+    display: table;
+    align-self: flex-start;
+}
